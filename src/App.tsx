@@ -1,10 +1,12 @@
-import Footer from "./component/footer/index";
+import Footer from './component/footer';
+import Mobile from './component/footer/indexmobile';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Footer />
-    </div> 
+      <Mobile />
+    </div>
   )
 }
 
