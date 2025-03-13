@@ -1,6 +1,11 @@
 import './footer.scss';
 import { useState } from 'react';
 
+// const withDigikala = ["اتاق خبر دیجی‌کالا", "فروش در دیجی‌کالا", "فرصت های شغلی", "گزارش تخلف در دیجی‌کالا", "تماس با دیجی‌کالا", "درباره دیجی‌کالا"]
+// const customerService = ["پاسخ به پرسش‌های متداول, "رویه‌های بازگرداندن کالا", "شرایط استفاده", "حریم خصوصی", "گزارش باگ"]
+// const shoppingGuide = ["نحوه ثبت سفارش", "رویه ارسال سفارش", "شیوه‌های پرداخت"]
+
+
 const Footer = () => {
     const [isExpanded, setIsExpanded] = useState(false);
 
@@ -77,6 +82,24 @@ const Footer = () => {
                     <a href='#'>رویه ارسال سفارش</a>
                     <a href='#'>شیوه‌های پرداخت</a>
                 </div>
+                {/* <div>
+                    <h1>با دیجی‌کالا</h1>
+                    <ul className='ListGroup'>
+                        {withDigikala.map(withDigikala => <li>{withDigikala}</li>)}
+                    </ul>
+                </div> */}
+                {/* <div>
+                    <h1>خدمات مشتریان/h1>
+                    <ul className='ListGroup'>
+                        {customerService.map(customerService => <li>{customerService}</li>)}
+                    </ul>
+                </div> */}
+                {/* <div>
+                    <h1>راهنمای خرید دیجی‌کالا</h1>
+                    <ul className='ListGroup'>
+                        {shoppingGuide.map(shoppingGuide => <li>{shoppingGuide}</li>)}
+                    </ul>
+                </div> */}
                 <div className="fourth-sec-four">
                     <div className="fourth-sec-four-upper">
                         <h4>همراه ما باشید!</h4>

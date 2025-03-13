@@ -1,5 +1,6 @@
 import './footermobile.scss';
 
+
 function Mobile() {
   return (
     <footer>
